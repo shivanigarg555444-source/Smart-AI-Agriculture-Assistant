@@ -1,9 +1,16 @@
-
+import os
+import zipfile
 import streamlit as st
 import joblib
 from crop_info import crop_info
 
 # Load Model
+# Extract model if only ZIP is available
+if not os.path.exists("crop_model.pkl") and os.path.exists("crop_model.zip"):
+    with zipfile.ZipFile("crop_model.zip", "r") as zip_ref:
+        zip_ref.extractall()
+
+# Load trained model
 model = joblib.load("crop_model.pkl")
 
 # Page Settings
