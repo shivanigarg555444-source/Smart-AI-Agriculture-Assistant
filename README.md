@@ -49,3 +49,5 @@ Random Forest Classifier
 Shivani Garg
 
 #Note: crop_model.zip contains the trained machine learning model. Extract it before running the application.
+📌 Note
+Disclaimer: The fertilizer recommendations, irrigation schedule, temperature, rainfall, soil pH, and farmer tips provided by this application are general agricultural guidelines. Actual recommendations may vary depending on soil test results, crop variety, local climate, and advice from agricultural experts. Farmers should consult local agricultural officers or conduct soil testing before making cultivation decisions.
