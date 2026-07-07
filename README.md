@@ -47,3 +47,5 @@ Random Forest Classifier
 
 ## 👩‍💻 Developed By
 Shivani Garg
+
+#Note: crop_model.zip contains the trained machine learning model. Extract it before running the application.
